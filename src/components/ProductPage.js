@@ -8,13 +8,13 @@ const ProductPage = () => {
     const navigate = useNavigate();
     const [product, setProduct] = useState(null);
     useEffect(() => {
-        axios.get(`https://8ec340d3-5513-40a4-80c1-329297794f1b.mock.pstmn.io/products/${id}`)
+        axios.get(`http://localhost:8080/products/${id}`)
         .then((result) => {
-            setProduct(result.data);
+            setProduct(result.data.product);
         }).catch((error) => {
             console.error(error);
-        });
-    }, [id]);
+        })
+    }, [id])
     if(product === null) {
         return <h1>상품정보를 받고 있습니다.</h1>
     }

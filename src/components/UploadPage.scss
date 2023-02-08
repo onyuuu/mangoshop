@@ -1,0 +1,31 @@
+#upload-container{
+    padding-top: 36px;
+    #upload-img{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #ddd;
+        margin-left: 16px;
+        img{
+            width: 50px;
+        }
+        span{
+            font-size: 14px;
+            color: rgb(195,194,204);
+        }
+    }
+    .upload-name{
+        width: 300px;
+    }
+}
+#product-description{height: 160px;}
+#submit-button{
+    margin-top: 20px;
+    border: none;
+    float: right;
+    background: rgb(75,130,211);
+    color: #fff;
+}

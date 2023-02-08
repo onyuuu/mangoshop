@@ -1,6 +1,14 @@
-#back-btn{display: flex; margin: 20px auto; padding: 10px 20px; background: rgb(243, 243, 243); border: none;}
+#back-btn{
+    display: flex; 
+    margin: 20px auto; 
+    padding: 10px 20px; 
+    background: rgb(243, 243, 243); 
+    border: none;
+    outline: none;
+}
 #image-box{
     height: 300px;
+    text-align: center;
     img{
         height: 100%;
     }
@@ -11,6 +19,7 @@
     border-bottom: 1px solid #ddd;
     display: flex;
     align-items: center;
+    
     img{
         width: 30px;
         height: 30px;
