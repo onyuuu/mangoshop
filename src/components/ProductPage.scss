@@ -7,9 +7,12 @@
     outline: none;
 }
 #image-box{
-    height: 300px;
+    max-height: 300px;
+    max-width: 100%;
+    width: 100%;
     text-align: center;
     img{
+        max-width: 300px;
         height: 100%;
     }
 }
@@ -35,14 +38,19 @@
     #name{
         font-size: 20px;
         font-weight: 400;
+        margin-bottom: 10px;
     }
     #price{
         font-size: 16px;
         font-weight: 600;
+        margin-bottom: 5px;
     }
     #createAt{
         font-size: 12px;
         color: rgb(204,204,204);
+    }
+    .payment{
+        margin: 20px 0 0;
     }
     #description{
         margin-top: 16px;
